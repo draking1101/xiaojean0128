@@ -1,0 +1,11 @@
+body {
+    height: auto;
+    background-image: url('@/assets/xiaojean/D.同樂贈圖/001-女僕靜抬腿坐 by花生.jpg');
+    /* 這裡加入背景圖片的路徑 */
+    background-size: cover;
+    /* 讓圖片覆蓋整個背景 */
+    background-position: center top;
+    /* 背景圖片居中 */
+    background-repeat: no-repeat;
+    /* 禁止背景圖片重複 */
+}
