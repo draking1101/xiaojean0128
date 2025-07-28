@@ -180,8 +180,7 @@ export const TEXT = {
                 favoriteFood: 'Favorite Food: Curry',
                 hobby: 'Hobbies: Singing, drawing, gaming',
                 favoriteGame: 'Games: Mainly Valorant, occasionally trying other games',
-                notice1: 'Currently working a full-time job, not a full-time VTuber.',
-                notice2: '💌 xiaojean0128@gmail.com',
+                notice1: '💌 xiaojean0128@gmail.com',
             },
             milestone: {
                 1: "2022.09.13 Started Streaming ✓",
@@ -342,8 +341,7 @@ export const TEXT = {
                 favoriteFood: '最愛的食物：咖哩',
                 hobby: '興趣：唱歌畫畫玩遊戲',
                 favoriteGame: '遊戲：特戰為主，偶爾嘗試其他遊戲',
-                notice1: '目前有正職，為非全職套皮實況主',
-                notice2: '💌 xiaojean0128@gmail.com',
+                notice1: '💌 xiaojean0128@gmail.com',
             },
             milestone: {
                 1: "2022.09.13 開始實況✓",

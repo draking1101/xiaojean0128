@@ -21,7 +21,6 @@ export const About = () => {
                             <li>{currentText.basicInfo.favoriteGame}</li>
                             <li>{currentText.basicInfo.hobby}</li>
                             <li>{currentText.basicInfo.notice1}</li>
-                            <li>{currentText.basicInfo.notice2}</li>
                         </ul>
                     </p>
                 </div>

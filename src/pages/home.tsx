@@ -76,7 +76,6 @@ export const Home = () => {
                                     <li>{introText.basicInfo.hobby}</li>
                                     <li>{introText.basicInfo.favoriteGame}</li>
                                     <li>{introText.basicInfo.notice1}</li>
-                                    <li>{introText.basicInfo.notice2}</li>
                                 </ul>
                             </p>
                         </div>
