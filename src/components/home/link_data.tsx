@@ -36,14 +36,14 @@ export const useLinkData = () => {
             subtitle: currentText.section1.linkItem.discord.subtitle,
         },
         {
-            href: 'https://www.instagram.com/xiaojean.0128?igshid=YmMyMTA2M2Y%3D',
+            href: 'https://www.instagram.com/xiaojean0128/',
             imgSrc: instagram,
             imgAlt: 'Instagram image missing, please contact support',
             title: currentText.section1.linkItem.instagram.title,
             subtitle: currentText.section1.linkItem.instagram.subtitle,
         },
         {
-            href: 'https://www.threads.net/@xiaojean.0128',
+            href: 'https://www.threads.com/@xiaojean0128',
             imgSrc: threads,
             imgAlt: 'Threads image missing, please contact support',
             title: currentText.section1.linkItem.threads.title,

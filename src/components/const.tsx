@@ -181,8 +181,7 @@ export const TEXT = {
                 hobby: 'Hobbies: Singing, drawing, gaming',
                 favoriteGame: 'Games: Mainly Valorant, occasionally trying other games',
                 notice1: 'Currently working a full-time job, not a full-time VTuber.',
-                notice2: 'Please don’t fall for me; I only show favoritism towards girls.',
-                notice3: '💌 xiaojean0128@gmail.com',
+                notice2: '💌 xiaojean0128@gmail.com',
             },
             milestone: {
                 1: "2022.09.13 Started Streaming ✓",
@@ -341,11 +340,10 @@ export const TEXT = {
                 height: '身高：158',
                 birthday: '生日：1/28',
                 favoriteFood: '最愛的食物：咖哩',
-                hobby: '興趣：唱歌畫畫遊戲',
+                hobby: '興趣：唱歌畫畫玩遊戲',
                 favoriteGame: '遊戲：特戰為主，偶爾嘗試其他遊戲',
                 notice1: '目前有正職，為非全職套皮實況主',
-                notice2: '請勿暈船，我只對妹子有差別待遇',
-                notice3: '💌 xiaojean0128@gmail.com',
+                notice2: '💌 xiaojean0128@gmail.com',
             },
             milestone: {
                 1: "2022.09.13 開始實況✓",

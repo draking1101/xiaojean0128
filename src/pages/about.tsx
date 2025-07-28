@@ -22,7 +22,6 @@ export const About = () => {
                             <li>{currentText.basicInfo.hobby}</li>
                             <li>{currentText.basicInfo.notice1}</li>
                             <li>{currentText.basicInfo.notice2}</li>
-                            <li>{currentText.basicInfo.notice3}</li>
                         </ul>
                     </p>
                 </div>
