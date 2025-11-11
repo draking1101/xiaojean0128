@@ -42,6 +42,15 @@
     text-decoration: none;
 }
 
+.beta-text {
+    margin-left: 10px;
+    top: 25%;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffd3e4;
+}
+
 .header-logo {
     cursor: 'pointer';
     height: 70px;

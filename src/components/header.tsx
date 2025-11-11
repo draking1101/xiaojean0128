@@ -89,6 +89,7 @@ export const Header = () => {
                     <img src={logo} alt="Logo" className='header-logo' />
                     <span className='header-logo-text'>{currentText.logoText}</span>
                 </Link>
+                {/* <text className='beta-text'>Beta</text> */}
             </div>
 
             {/* 導航欄 */}
