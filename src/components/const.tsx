@@ -115,8 +115,13 @@ export const TEXT = {
             section2: {
                 donate: "Donate",
                 item3: "List of Past Donation Gifts.",
-                Link1: "Valleydeer",
-                Link2: "Hivebee",
+                mainDonate: "Main Donate Web",
+                deerdonate: "Deer Donate Web",
+                hivebeedonate: "Hivebee Donate Web",
+                note1: "Please evaluate your financial ability before donating.",
+                note2: "Malicious donations followed by chargebacks will result in a permanent ban.",
+                note3: "Thank you to every angel who donates.",
+                note4: "I hope you can all make a fortune.",
             },
             section3: {
                 linkText: "Discord Group",
@@ -161,6 +166,7 @@ export const TEXT = {
                 discontinued: "Discontinued",
             },
             title: {
+                birthday2026: "2026 Birthday",
                 commingSoon: '《Coming Soon》',
                 lineSticker: "Line Stickers",
                 merchShop: "Merch Shop",
@@ -277,8 +283,13 @@ export const TEXT = {
             section2: {
                 donate: "斗內",
                 item3: "歷史斗內贈禮名單",
-                Link1: "山羌斗內",
-                Link2: "Hivebee",
+                mainDonate: "主要斗內網站",
+                deerdonate: "山羌斗內網站",
+                hivebeedonate: "Hivebee斗內",
+                note1: "請衡量能力吃飽後再斗內",
+                note2: "惡意斗內退刷會被永BAN",
+                note3: "謝謝每一位斗內的天使心結",
+                note4: "希望你們都能財源滾滾嘿嘿",
             },
             section3: {
                 linkText: "DC群",
@@ -323,6 +334,7 @@ export const TEXT = {
                 discontinued: "絕版周邊",
             },
             title: {
+                birthday2026: "2026 生日周邊",
                 commingSoon: '敬請期待',
                 lineSticker: "Line貼圖",
                 merchShop: "心結小舖",
@@ -374,7 +386,7 @@ export const TEXT = {
             },
         },
         footer: {
-            text: `本站由 龍嘯天 所設計 ${WEB_DETAILS.version} ・ Powered by React @ 2025`
+            text: `本站由 龍嘯天 所設計 ${WEB_DETAILS.version} ・ Powered by React @ 2024 ~ 2026`
         }
     },
 };

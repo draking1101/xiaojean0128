@@ -43,6 +43,7 @@
 .home-section1LinkArea li:hover {
     border: 2px solid #ffd3e4;
 }
+
 /* section1 */
 .home-section1IntroArea {
     width: 50%;
@@ -233,6 +234,10 @@
     }
 
     /* donate */
+    #header-donate ul {
+        width: 80%;
+    }
+
     #header-donate h1 {
         font-size: 28px;
     }

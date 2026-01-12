@@ -116,16 +116,23 @@ export const Home = () => {
                     <h1>{currentText.section2.donate}</h1>
                     <ul>
                         <li id='header-donate-link'>
-                            <a href="https://deerdonate.herokuapp.com/donation/小靜しずか"
+                            <a href="https://nekolive.net/xiaojean0128"
                                 target="_blank" rel="noreferrer">
-                                {currentText.section2.Link1}
-                            </a>
-                            |
-                            <a href="https://reurl.cc/NYDy1k"
-                                target="_blank" rel="noreferrer">
-                                {currentText.section2.Link2}
+                                {currentText.section2.mainDonate}
                             </a>
                             {/* Remove PayPal Because of security issues, refer to https://x.com/iluyee161/status/1883712399020335297?s=46 */}
+                        </li>
+                        <li>
+                            <a href="https://deerdonate.herokuapp.com/donation/小靜しずか"
+                                target="_blank" rel="noreferrer">
+                                {currentText.section2.deerdonate}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://reurl.cc/NYDy1k"
+                                target="_blank" rel="noreferrer">
+                                {currentText.section2.hivebeedonate}
+                            </a>
                         </li>
                         <li>
                             <a href="https://docs.google.com/spreadsheets/d/1TjnjalZ_7pMc8rbbINDAwAyPbCDrVy49r3A2YDErcHI/edit?usp=sharing"
@@ -133,6 +140,10 @@ export const Home = () => {
                                 {currentText.section2.item3}
                             </a>
                         </li>
+                        <li style={{ textDecoration: 'none' }}>{currentText.section2.note1}</li>
+                        <li style={{ textDecoration: 'none' }}>{currentText.section2.note2}</li>
+                        <li style={{ textDecoration: 'none' }}>{currentText.section2.note3}</li>
+                        <li style={{ textDecoration: 'none' }}>{currentText.section2.note4}</li>
                     </ul>
                 </section>
 

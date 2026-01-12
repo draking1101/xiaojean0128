@@ -18,23 +18,33 @@ export const Merch = () => {
 
     const merchCategory = [currentText.category.limited, currentText.category.regular, currentText.category.discontinued]
 
-    const MerchItem = [{
-        // Line個人原創商品
-        id: 6,
-        category: currentText.category.regular,
-        showLink: true,
-        imgSrc: require('@/assets/xiaojean/B.周邊/lineSticker.png'),
-        title: currentText.title.lineSticker,
-        link: "https://store.line.me/stickershop/author/4563761/zh-Hant"
-    }, {
-        // 小靜的心結小舖
-        id: 12,
-        category: currentText.category.regular,
-        showLink: true,
-        imgSrc: require('@/assets/xiaojean/B.周邊/merchShop.jpg'),
-        title: currentText.title.merchShop,
-        link: "https://kusdom.com/xiaojean0128"
-    }]
+    const MerchItem = [
+        // {
+        //     // 2026 生日周邊
+        //     id: 13,
+        //     category: currentText.category.limited,
+        //     showLink: false,
+        //     imgSrc: require('@/assets/xiaojean/B.周邊/lineSticker.png'), // // 生日後再放上圖片
+        //     title: currentText.title.birthday2026,
+        //     link: "https://store.line.me/stickershop/author/4563761/zh-Hant" // 生日後再放上連結
+        // },
+        {
+            // Line個人原創商品
+            id: 6,
+            category: currentText.category.regular,
+            showLink: true,
+            imgSrc: require('@/assets/xiaojean/B.周邊/lineSticker.png'),
+            title: currentText.title.lineSticker,
+            link: "https://store.line.me/stickershop/author/4563761/zh-Hant"
+        }, {
+            // 小靜的心結小舖
+            id: 12,
+            category: currentText.category.regular,
+            showLink: true,
+            imgSrc: require('@/assets/xiaojean/B.周邊/merchShop.jpg'),
+            title: currentText.title.merchShop,
+            link: "https://kusdom.com/xiaojean0128"
+        }]
 
     const openModal = (imageSrc) => {
         setModalImage(imageSrc);
@@ -66,8 +76,8 @@ export const Merch = () => {
                                 link={item.link}
                             />
                         ))}
-                    {/* 如果限定類別沒商品時顯示 */}
-                    {category === currentText.category.limited && MerchItem.filter((item) => item.category === category.limited).length === 0 && (
+                    {/* 如果限時周邊沒商品時顯示 */}
+                    {category === currentText.category.limited && MerchItem.filter((item) => item.category === currentText.category.limited).length === 0 && (
                         <li className='merch-item'>
                             <img src={defaultImg} alt="Lost" />
                             <p className="merch-item-title">{currentText.title.commingSoon}</p>
@@ -75,14 +85,14 @@ export const Merch = () => {
                         </li>
                     )}
                     {/* 如果絕版類別沒商品時顯示 */}
-                    {category === currentText.category.discontinued && MerchItem.filter((item) => item.category === category.discontinued).length === 0 && (
+                    {category === currentText.category.discontinued && MerchItem.filter((item) => item.category === currentText.category.discontinued).length === 0 && (
                         <li className='merch-item'>
                             <img src={require('@/assets/xiaojean/B.周邊/limited_merch.jpeg')} alt="Lost" />
                             <p className="merch-item-title">{language === 'zh' ? '商品資訊放在IG' : 'Information about discontinued products is placed on IG'}</p>
                             <button onClick={() => openModal(defaultImg)}>{language === 'zh' ? '檢視圖片' : 'View Image'}</button>
                             <a
                                 className='merch-item-link'
-                                href={'https://www.instagram.com/xiaojean.0128?igshid=YmMyMTA2M2Y%3D'}
+                                href={'https://www.instagram.com/xiaojean0128/'}
                                 target="_blank"
                                 rel="noreferrer"
                             >
