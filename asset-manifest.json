@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xiaojean0128/static/css/main.f106a7be.css",
-    "main.js": "/xiaojean0128/static/js/main.b407ca4f.js",
+    "main.js": "/xiaojean0128/static/js/main.9c744f03.js",
     "static/js/453.858efac3.chunk.js": "/xiaojean0128/static/js/453.858efac3.chunk.js",
     "static/media/001-女僕靜抬腿坐 by花生.jpg": "/xiaojean0128/static/media/001-女僕靜抬腿坐 by花生.2af4d70ddb66780b3cab.jpg",
     "static/media/1.0&2.0.jpg": "/xiaojean0128/static/media/1.0&2.0.d612055f4b54b13fe28f.jpg",
@@ -23,11 +23,11 @@
     "static/media/Youtube-white.png": "/xiaojean0128/static/media/Youtube-white.c1e1cfcd397b5114a1e6.png",
     "index.html": "/xiaojean0128/index.html",
     "main.f106a7be.css.map": "/xiaojean0128/static/css/main.f106a7be.css.map",
-    "main.b407ca4f.js.map": "/xiaojean0128/static/js/main.b407ca4f.js.map",
+    "main.9c744f03.js.map": "/xiaojean0128/static/js/main.9c744f03.js.map",
     "453.858efac3.chunk.js.map": "/xiaojean0128/static/js/453.858efac3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f106a7be.css",
-    "static/js/main.b407ca4f.js"
+    "static/js/main.9c744f03.js"
   ]
 }
